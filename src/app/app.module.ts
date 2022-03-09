@@ -8,6 +8,6 @@ import { ChartComponent } from './chart/chart.component';
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [AppComponent, ChartComponent],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,31 +1,31 @@
-import { OnInit, Component } from "@angular/core";
+import { OnInit, Component } from '@angular/core';
 
 @Component({
-  selector: "my-app",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent implements OnInit {
   shapeInfo: ShapeInfo;
 
   ngOnInit() {
-    this.shapeInfo = new ShapeInfo("10px", "10px", "30px", "30px", "blue");
+    this.shapeInfo = new ShapeInfo('10px', '10px', '30px', '30px', 'blue');
   }
 
   onclick() {
-    console.log("onclick");
-    if (this.shapeInfo.fill == "red") {
-      this.shapeInfo.fill = "blue";
-      this.shapeInfo.x = "10px";
-      this.shapeInfo.y = "10px";
-      this.shapeInfo.width = "30px";
-      this.shapeInfo.height = "30px";
+    console.log('onclick');
+    if (this.shapeInfo.fill == 'red') {
+      this.shapeInfo.fill = 'blue';
+      this.shapeInfo.x = '10px';
+      this.shapeInfo.y = '10px';
+      this.shapeInfo.width = '30px';
+      this.shapeInfo.height = '30px';
     } else {
-      this.shapeInfo.fill = "red";
-      this.shapeInfo.x = "20px";
-      this.shapeInfo.y = "20px";
-      this.shapeInfo.width = "50px";
-      this.shapeInfo.height = "50px";
+      this.shapeInfo.fill = 'red';
+      this.shapeInfo.x = '20px';
+      this.shapeInfo.y = '20px';
+      this.shapeInfo.width = '50px';
+      this.shapeInfo.height = '50px';
     }
   }
 }
