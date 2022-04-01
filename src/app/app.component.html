@@ -1,5 +1,18 @@
-<button (click)="onclick()">TEST</button>
+<label>x </label>
+<input [(ngModel)]="shapeInfo.x" />
+<br />
+<label>y </label>
+<input [(ngModel)]="shapeInfo.y" />
+<br />
+<label>width </label>
+<input [(ngModel)]="shapeInfo.width" />
+<br />
+<label>height </label>
+<input [(ngModel)]="shapeInfo.height" />
+<br />
+<label>fill </label>
+<input [(ngModel)]="shapeInfo.fill" type="color" />
+<br />
 <app-chart
-  style="width:100px;height:100px;display:block"
   [shapeInfo]="shapeInfo"
 ></app-chart>
