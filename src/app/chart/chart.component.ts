@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ShapeInfo } from '../app.component';
+import { ShapeInfo } from '../shape-info';
 
 @Component({
   selector: 'app-chart',
