@@ -6,10 +6,6 @@ import { ShapeInfo } from '../shape-info';
   templateUrl: './chart.component.svg',
   styleUrls: ['./chart.component.css'],
 })
-export class ChartComponent implements OnInit {
+export class ChartComponent {
   @Input() shapeInfo: ShapeInfo;
-
-  constructor() {}
-
-  ngOnInit() {}
 }
