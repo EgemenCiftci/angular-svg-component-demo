@@ -1,3 +1,3 @@
-<svg width="100%" height="100%" style="background-color:yellow">
+<svg width="100%" height="100%">
   <rect [attr.x]="shapeInfo.x" [attr.y]="shapeInfo.y" [attr.width]="shapeInfo.width" [attr.height]="shapeInfo.height" [attr.fill]="shapeInfo.fill"/>
 </svg>
